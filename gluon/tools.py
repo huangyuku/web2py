@@ -1398,7 +1398,7 @@ class AuthJWT(object):
             username = request.vars[self.user_param]
             password = request.vars[self.pass_param]
             valid_user = self.auth.login_bare(username, password)
-        else:
+        elif self.auth.user:
             valid_user = self.auth.user
             self.auth.login_user(valid_user)
         if valid_user:
