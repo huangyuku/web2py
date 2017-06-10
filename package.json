@@ -1,0 +1,36 @@
+{
+  "name": "web2py",
+  "version": "1.0.0",
+  "description": "web2py is a free open source full-stack framework for rapid development of fast, scalable, secure and portable database-driven web-based applications.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangyuku/web2py.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangyuku/web2py/issues"
+  },
+  "homepage": "https://github.com/huangyuku/web2py#readme",
+  "dependencies": {
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-bootstrap": "0.31.0",
+    "react-textarea-autosize": "5.0.6"
+  },
+  "devDependencies": {
+    "browserify": "14.1.0",
+    "babelify": "7.3.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1"
+  }
+}

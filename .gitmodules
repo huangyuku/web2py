@@ -3,4 +3,4 @@
 	url = https://github.com/web2py/pydal.git
 [submodule "applications/itinerary"]
 	path = applications/itinerary
-	url = git@bitbucket.org:huangyu/itinerary.git
+	url = https://x-token-auth:wXsIe_dLInaPSV26M8dv9L2nEobMgK0JzioRKJCBCQrsdlvPuWRrFs2EgaIdmR9V8u2KTi6g7SUtBuBvHLI%3D@bitbucket.org/huangyu/itinerary.git
